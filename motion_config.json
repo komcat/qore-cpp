@@ -1,0 +1,876 @@
+{
+  "Graphs": {
+
+    "Process_Flow": {
+      "Edges": [
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_3985",
+          "Label": "g_home<>back",
+          "Source": "node_3920",
+          "Target": "node_3960"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4046",
+          "Label": "back<>safe",
+          "Source": "node_3960",
+          "Target": "node_4027"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4234",
+          "Label": "see sled",
+          "Source": "node_4027",
+          "Target": "node_4083"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4268",
+          "Label": "see pic",
+          "Source": "node_4027",
+          "Target": "node_4107"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4328",
+          "Label": "see focus lens",
+          "Source": "node_4027",
+          "Target": "node_4156"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4300",
+          "Label": "see coll lens",
+          "Source": "node_4027",
+          "Target": "node_4137"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4361",
+          "Label": "see pick coll lens",
+          "Source": "node_4027",
+          "Target": "node_4186"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4370",
+          "Label": "see pick focus lens",
+          "Source": "node_4027",
+          "Target": "node_4209"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4443",
+          "Label": "UV cure",
+          "Source": "node_4027",
+          "Target": "node_4426"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_4528",
+          "Label": "see SN",
+          "Source": "node_4107",
+          "Target": "node_4500"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5751",
+          "Label": "approach place",
+          "Source": "node_5480",
+          "Target": "node_5620"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5770",
+          "Label": "to pick",
+          "Source": "node_5557",
+          "Target": "node_5647"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5680",
+          "Label": "reject lens",
+          "Source": "node_5480",
+          "Target": "node_5531"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5697",
+          "Label": "approach pick",
+          "Source": "node_5480",
+          "Target": "node_5557"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": false,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5833",
+          "Label": "to place",
+          "Source": "node_5620",
+          "Target": "node_5662"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5315",
+          "Label": "approach pick",
+          "Source": "node_5136",
+          "Target": "node_5211"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5416",
+          "Label": "approach place",
+          "Source": "node_5136",
+          "Target": "node_5235"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5431",
+          "Label": "to place",
+          "Source": "node_5235",
+          "Target": "node_5263"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5363",
+          "Label": "to pick",
+          "Source": "node_5211",
+          "Target": "node_5245"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5466",
+          "Label": "reject lens",
+          "Source": "node_5136",
+          "Target": "node_5190"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5478",
+          "Label": "pick to place",
+          "Source": "node_5211",
+          "Target": "node_5235"
+        },
+        {
+          "Conditions": {
+            "IsBidirectional": true,
+            "RequiresOperatorApproval": false,
+            "TimeoutSeconds": 0
+          },
+          "Id": "edge_5518",
+          "Label": "New Edge",
+          "Source": "node_5620",
+          "Target": "node_5557"
+        }
+      ],
+      "Nodes": [
+        {
+          "Device": "gantry-main",
+          "Id": "node_3920",
+          "Label": "g_home",
+          "Position": "home",
+          "X": 484,
+          "Y": -596
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_3960",
+          "Label": "g_back",
+          "Position": "midback",
+          "X": 535,
+          "Y": -48
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4027",
+          "Label": "g_safe",
+          "Position": "safe",
+          "X": 268,
+          "Y": 402
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4083",
+          "Label": "g_sled",
+          "Position": "seesled",
+          "X": 182,
+          "Y": 957
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4107",
+          "Label": "g_pic",
+          "Position": "seepic",
+          "X": -218,
+          "Y": 876
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4137",
+          "Label": "g_collLens",
+          "Position": "seecollimatelens",
+          "X": 540,
+          "Y": 945
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4156",
+          "Label": "g_focusLens",
+          "Position": "seefocuslens",
+          "X": 926,
+          "Y": 975
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4186",
+          "Label": "g_pick_collLens",
+          "Position": "seegripcolllens",
+          "X": 1027,
+          "Y": 215
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4209",
+          "Label": "g_pick_focusLens",
+          "Position": "seegripfocuslens",
+          "X": 1009,
+          "Y": 507
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4426",
+          "Label": "UV",
+          "Position": "uv",
+          "X": -473,
+          "Y": 352
+        },
+        {
+          "Device": "gantry-main",
+          "Id": "node_4500",
+          "Label": "SN view",
+          "Position": "snviewing",
+          "X": -226,
+          "Y": 1290
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5480",
+          "Label": "l_home",
+          "Position": "home",
+          "X": 2239,
+          "Y": -442
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5531",
+          "Label": "l_reject_lens",
+          "Position": "rejectlens",
+          "X": 1407,
+          "Y": -390
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5620",
+          "Label": "l_approach_place",
+          "Position": "approachlensplace",
+          "X": 2571,
+          "Y": 52
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5557",
+          "Label": "l_approach_pick",
+          "Position": "approachlensgrip",
+          "X": 2006,
+          "Y": 67
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5647",
+          "Label": "l_pick",
+          "Position": "lensgrip",
+          "X": 1986,
+          "Y": 593
+        },
+        {
+          "Device": "hex-left",
+          "Id": "node_5662",
+          "Label": "l_place",
+          "Position": "lensplace",
+          "X": 2570,
+          "Y": 579
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5136",
+          "Label": "r_home",
+          "Position": "home",
+          "X": 2092,
+          "Y": -2606
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5190",
+          "Label": "r_reject",
+          "Position": "rejectlens",
+          "X": 993,
+          "Y": -2592
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5211",
+          "Label": "r_approach_pick",
+          "Position": "approachlensgrip",
+          "X": 1552,
+          "Y": -1875
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5235",
+          "Label": "r_approach_place",
+          "Position": "approachlensplace",
+          "X": 2681,
+          "Y": -1858
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5245",
+          "Label": "r_pick",
+          "Position": "lensgrip",
+          "X": 1615,
+          "Y": -1295
+        },
+        {
+          "Device": "hex-right",
+          "Id": "node_5263",
+          "Label": "r_place",
+          "Position": "lensplace",
+          "X": 2702,
+          "Y": -1356
+        }
+      ]
+    }
+
+  },
+  "MotionDevices": {
+    "gantry-main": {
+      "Id": 3,
+      "type": "ACS",
+      "Axes": [ "X", "Y", "Z" ],
+      "IpAddress": "192.168.0.50",
+      "IsEnabled": true,
+      "Name": "gantry-main",
+      "Port": 701,
+      "Positions": {
+        "_cam_cal_dot": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 172.86484375,
+          "y": 79.3078125,
+          "z": 11.41976478091033
+        },
+        "_cam_dispense_1": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 171.81015625,
+          "y": 78.6234375,
+          "z": 11.8947647809103
+        },
+        "_cam_dispense_2": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 176.7390625,
+          "y": 78.47109375,
+          "z": 12.3447647809103
+        },
+        "caldot": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 72.9,
+          "y": 93.7,
+          "z": 41.9247647809103
+        },
+        "dispense1": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 71.7,
+          "y": 93.7,
+          "z": 43.7447644116136
+        },
+        "dispense1safe": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 71.7,
+          "y": 93.7,
+          "z": 43.7447644116136
+        },
+        "dispense2": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 71.7,
+          "y": 93.7,
+          "z": 43.7447644116136
+        },
+        "dispense2safe": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 71.7,
+          "y": 93.7,
+          "z": 43.7447644116136
+        },
+        "fiducial1": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 175.21783,
+          "y": 83.52645375,
+          "z": 16.94476478091031
+        },
+        "fiducial2": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 179.21311,
+          "y": 83.51889375,
+          "z": 16.94476478091031
+        },
+        "fiducial3": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 175.16575,
+          "y": 79.03077375,
+          "z": 16.94476478091031
+        },
+        "home": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 3.0,
+          "y": 3.0,
+          "z": 12.0
+        },
+        "midback": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 109.99,
+          "y": 3.0,
+          "z": 8.0
+        },
+        "predispense": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 71.1,
+          "y": 93.7,
+          "z": 25.0
+        },
+        "safe": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 143.2,
+          "y": 75.7,
+          "z": 8.2447644116136
+        },
+        "safeFront": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 138.8,
+          "y": 75.7,
+          "z": 8.2447644116136
+        },
+        "seecollimatelens": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 174.38703,
+          "y": 80.68137375,
+          "z": 16.24476478091029
+        },
+        "seeemitter": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 172.69319,
+          "y": 81.03669375,
+          "z": 16.64476478091031
+        },
+        "seefocuslens": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 179.37263,
+          "y": 80.52845375,
+          "z": 16.8447647809103
+        },
+        "seegripcolllens": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 173.55375,
+          "y": 88.11033375,
+          "z": 16.8447647809103
+        },
+        "seegripfocuslens": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 178.67743,
+          "y": 88.21869375,
+          "z": 16.4347647809103
+        },
+        "seepic": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 180.70807,
+          "y": 81.23829375,
+          "z": 16.3447647809103
+        },
+        "seesled": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 172.18479,
+          "y": 78.98289375,
+          "z": 16.3447647809103
+        },
+        "snviewing": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 181.86255,
+          "y": 84.34645375,
+          "z": 17.444764780910297
+        },
+        "uv": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 142.315,
+          "y": 75.876,
+          "z": 47.6747647809102
+        }
+      }
+    },
+    "hex-bottom": {
+      "Id": 1,
+      "type": "PI",
+      "Axes": [ "X", "Y", "Z","U","V","W" ],
+      "IpAddress": "192.168.0.20",
+      "IsEnabled": false,
+      "Name": "hex-bottom",
+      "Port": 50000,
+      "Positions": {
+        "calibration": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 25.0,
+          "y": 25.0,
+          "z": 5.0
+        },
+        "home": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    },
+    "hex-left": {
+      "Id": 0,
+      "type": "PI",
+      "Axes": [ "X", "Y", "Z", "U", "V", "W" ],
+      "IpAddress": "192.168.0.10",
+      "IsEnabled": true,
+      "Name": "hex-left",
+      "Port": 50000,
+      "Positions": {
+        "approachlensgrip": {
+          "u": -1.99999548617,
+          "v": 2.90553782178e-06,
+          "w": -2.71968061736e-06,
+          "x": -2.09000245803,
+          "y": 2.92999264874,
+          "z": -1.19999968196
+        },
+        "approachlensplace": {
+          "u": 1.33923973426e-06,
+          "v": 4.19133689255e-07,
+          "w": 3.2009685986e-06,
+          "x": -1.35999764493,
+          "y": -4.69999946624,
+          "z": -0.599998962525
+        },
+        "avoiddispenser": {
+          "u": -3.00585124105e-07,
+          "v": -1.23806818896e-06,
+          "w": -9.27301552865e-07,
+          "x": 4.64000259568,
+          "y": 7.99999455736,
+          "z": 9.06757038239e-07
+        },
+        "home": {
+          "u": -8.63582253746e-07,
+          "v": 5.01522321609e-07,
+          "w": -5.14839266999e-07,
+          "x": 4.64000256366,
+          "y": 6.49999459271,
+          "z": 4.93080495736e-07
+        },
+        "leftseeprobe": {
+          "u": -3.00585124105e-07,
+          "v": -1.23806818896e-06,
+          "w": -9.27301552865e-07,
+          "x": 4.64000259568,
+          "y": 7.99999455736,
+          "z": 9.06757038239e-07
+        },
+        "lensgrip": {
+          "u": -1.99999477818,
+          "v": 3.65234620268e-06,
+          "w": 6.39214546836e-07,
+          "x": -6.18999143543,
+          "y": 2.95000021156,
+          "z": -1.1500004227
+        },
+        "lensplace": {
+          "u": -2.49999369465,
+          "v": 1.69741011408e-10,
+          "w": -1.65173650018e-05,
+          "x": -5.72999235421,
+          "y": -4.57998677856,
+          "z": -0.739998421404
+        },
+        "lensplacecalculated": {
+          "u": -2.20006489923,
+          "v": 0.800001084294,
+          "w": -0.300306716562,
+          "x": -5.51519997172,
+          "y": -4.63578319827,
+          "z": 1.60813985059
+        },
+        "parkinside": {
+          "u": -4.03627312681e-07,
+          "v": -2.17236832962e-07,
+          "w": -2.42460431633e-06,
+          "x": 4.63999793546,
+          "y": -9.00000350943,
+          "z": -7.98607480694e-07
+        },
+        "rejectlens": {
+          "u": -1.99999392056,
+          "v": 0.900002345667,
+          "w": 1.93200538997e-06,
+          "x": -5.45999613865,
+          "y": 7.97999166547,
+          "z": -2.25999874438
+        }
+      }
+    },
+    "hex-right": {
+      "Id": 2,
+      "type": "PI",
+      "Axes": [ "X", "Y", "Z", "U", "V", "W" ],
+      "IpAddress": "192.168.0.30",
+      "IsEnabled": false,
+      "Name": "hex-right",
+      "Port": 50000,
+      "Positions": {
+        "approachlensgrip": {
+          "u": 8.64888958725e-06,
+          "v": -9.74635495712e-06,
+          "w": 2.50795574299e-05,
+          "x": -1.49000823814,
+          "y": -1.53998667454,
+          "z": -0.604999704568
+        },
+        "approachlensplace": {
+          "u": 9.78304611427e-06,
+          "v": -7.84951300644e-06,
+          "w": 2.54647593428e-05,
+          "x": -1.49000485032,
+          "y": 6.26001275343,
+          "z": -0.604999056792
+        },
+        "avoiddispenser": {
+          "u": 3.43848528513e-06,
+          "v": 1.7169072186e-06,
+          "w": -1.19761986177e-06,
+          "x": 4.64000497644,
+          "y": -7.99999744005,
+          "z": -1.19999947306
+        },
+        "home": {
+          "u": 3.42387907228e-06,
+          "v": 1.87408049548e-08,
+          "w": -3.11023641614e-06,
+          "x": 4.64000065912,
+          "y": 3.47536842903e-07,
+          "z": -1.20000006747
+        },
+        "lensgrip": {
+          "u": 4.49099018912e-06,
+          "v": -9.84358260378e-06,
+          "w": 2.600552985e-05,
+          "x": -5.41001593255,
+          "y": -1.43998455982,
+          "z": -0.495002239263
+        },
+        "lensplace": {
+          "u": 5.95681348448e-06,
+          "v": -1.20000778163,
+          "w": 1.8129839063e-05,
+          "x": -5.07501088235,
+          "y": 6.24501327293,
+          "z": -0.909995730557
+        },
+        "lensplacecalculated": {
+          "u": 0.300003252167,
+          "v": -1.50000872761,
+          "w": 3.80317099267e-06,
+          "x": -4.7,
+          "y": 6.11422733122,
+          "z": -0.420000661858
+        },
+        "parkinside": {
+          "u": -2.46927880634e-06,
+          "v": -5.38954141954e-07,
+          "w": -2.08072039627e-06,
+          "x": 4.63999624681,
+          "y": 8.99999991038,
+          "z": -4.84141603403e-07
+        },
+        "rejectlens": {
+          "u": -3.37308435529e-06,
+          "v": -9.8835941075e-06,
+          "w": 9.81075147666e-06,
+          "x": -4.74002101336,
+          "y": -4.65998736694,
+          "z": -3.20000098616
+        },
+        "rightseeprobe": {
+          "u": 3.43848528513e-06,
+          "v": 1.7169072186e-06,
+          "w": -1.19761986177e-06,
+          "x": 4.64000497644,
+          "y": -7.99999744005,
+          "z": -1.19999947306
+        },
+        "snviewing": {
+          "u": 0.0,
+          "v": 0.0,
+          "w": 0.0,
+          "x": 4.63999624681,
+          "y": -5.5,
+          "z": -1.2
+        }
+      }
+    }
+  },
+  "Settings": {
+    "AutoReconnect": true,
+    "ConnectionTimeout": 5000,
+    "DefaultAcceleration": 5.0,
+    "DefaultSpeed": 10.0,
+    "LogLevel": "info",
+    "PositionTolerance": 0.001
+  }
+}
